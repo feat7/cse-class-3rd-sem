@@ -77,7 +77,7 @@ int set1_complement()
 
 int set2_complement()
 {
-    printf("\n Complement of first set:\n");
+    printf("\n Complement of second set:\n");
     for(int i = 0; i<100; i++) {
         for(int j = 0; j<N2; j++) {
             if(set2[j] == i) break;
