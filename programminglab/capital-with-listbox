@@ -1,0 +1,10 @@
+Private Sub List1_Click()
+Dim index
+index = List1.ListIndex
+Dim capital(0 To 3) As String
+capital(0) = "Delhi"
+capital(1) = "Beijing"
+capital(2) = "Islalmabad"
+capital(3) = "Colombo"
+Text1.Text = capital(index)
+End Sub
