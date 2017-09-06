@@ -1,0 +1,12 @@
+Private Sub Combo1_Click()
+Dim index
+index = Combo1.ListIndex
+Dim states(0 To 5) As String
+states(0) = "Marathi"
+states(1) = "Telugu"
+states(2) = "Punjabi"
+states(3) = "Haryanvi"
+states(4) = "Hindi"
+states(5) = "Chattisgarhiya"
+Text1.Text = states(index)
+End Sub
