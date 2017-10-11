@@ -1,0 +1,48 @@
+
+Private Sub Command1_Click()
+If Option1 Then
+    Text2.Text = Len(Text1.Text)
+End If
+If Option2 Then
+    Right = InputBox("Enter Value", "Enter Value", "Please Enter Value")
+    Text2.Text = Right(Text1.Text, Right)
+End If
+If Option3 Then
+    Left = InputBox("Enter Value", "Enter Value", "Please Enter Value")
+    Text2.Text = Left(Text1.Text, Left)
+End If
+If Option4 Then
+    Text2.Text = LTrim(Text1.Text)
+End If
+If Option5 Then
+    Text2.Text = RTrim(Text1.Text)
+End If
+If Option6 Then
+    Text2.Text = Trim(Text1.Text)
+End If
+If Option7 Then
+    Text2.Text = UCase(Text1.Text)
+End If
+If Option8 Then
+    Text2.Text = LCase(Text1.Text)
+End If
+If Option9 Then
+    Text2.Text = Mid(Text1.Text, 2, 5)
+End If
+If Option10 Then
+    Text2.Text = InStr(1, Text1.Text, "T")
+End If
+If Option11 Then
+    Text2.Text = Chr(Text1.Text)
+End If
+If Option12 Then
+    Text2.Text = Asc(Text1.Text)
+End If
+If Option13 Then
+    Text2.Text = Val(Text1.Text)
+End If
+If Option14 Then
+    Text2.Text = Str(Val(Text1.Text))
+End If
+End Sub
+
